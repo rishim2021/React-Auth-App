@@ -1,0 +1,10 @@
+.otpCard {
+  text-align: center;
+  margin-top: 5%;
+  border-color: black;
+  margin-left: 35%;
+}
+.forOtp {
+  width: 20%;
+  height: 25px;
+}

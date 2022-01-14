@@ -1,0 +1,10 @@
+.sucessCard {
+  text-align: center;
+  margin-top: 5%;
+  border-color: black;
+  margin-left: 25%;
+}
+.right {
+  color: green;
+  font-size: 30px;
+}

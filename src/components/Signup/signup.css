@@ -1,0 +1,17 @@
+.signUp {
+  text-align: center;
+  margin-top: 5%;
+  border-color: black;
+  margin-left: 35%;
+}
+.usrImg {
+  margin-left: 40%;
+}
+
+.errMsg {
+  color: red;
+}
+
+.passStn {
+  color: red;
+}

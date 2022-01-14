@@ -8,7 +8,9 @@ import { Check } from '@mui/icons-material';
 import { TextField } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import './otp.css';
+
 export const Otp = () => {
+
   const {state} = useLocation();
   const { email, password, referral  } = state;
   console.log(email,password,referral);
@@ -22,7 +24,6 @@ export const Otp = () => {
   const onNext = ()=>{
     navigate('/referral',{state:{email:email}})
   }
- 
 
   return (
     <div>
@@ -68,13 +69,8 @@ export const Otp = () => {
                <SkipNextOutlined  sx={{ mr: 1 }} />
                   Next
                </Fab>
-           }
-
-          </div>
-
-          
-
-          
+             }
+          </div>    
         </CardContent>
       </Card>
     </div>

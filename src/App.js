@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Otp } from './components/Otp/Otp';
 import { Referral } from './components/Referral/Referral';
 import { Sucess } from './components/Sucess/Sucess';
+
 function App() {
   return (
     <div className="background">

@@ -18,13 +18,10 @@ export const Sucess = () => {
        <div>
          <h1>
            Your Profile Sucessfully Created!!
-         </h1>
-         
+         </h1>         
          <p> <Beenhere sx={{ mr: 1}} className="right"/>Email : {email} 
          {referralCode !== null ? <div>Referral Code : {referralCode} </div>:  ""}
          </p>
-         
-
        </div>
        </CardContent>
        </Card>

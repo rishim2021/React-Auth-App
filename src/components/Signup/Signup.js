@@ -15,8 +15,6 @@ import { Checkbox } from '@mui/material';
 import { Avatar } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import './signup.css';
-// import { Otp } from '../Otp/Otp';
-
 
 export const Signup = () => {
 
@@ -33,9 +31,7 @@ export const Signup = () => {
     haveReferral : false
   });
 
-
   const navigate = useNavigate();
-
 
   const toggleVal = ()=>{
     setValues({ ...values, showPassword: !values.showPassword });    
@@ -133,18 +129,15 @@ export const Signup = () => {
             <Label className={ values.password.length>2 ? "passStn" : ""}/> <Label className={ values.password.length>5 ? "passStn" : ""}/> 
             <Label className={ values.password.length>8 ? "passStn" : ""}/>
           </div> : ""}
-          
           </FormControl> : ""} 
- 
+
           </div>
           <div>
           {values.password.length>0 ?<FormControl sx={{ m: 1, width: '25ch' }} variant="standard">
           <InputLabel htmlFor="standard-adornment-password">Confirm Password</InputLabel>
           <Input name="conPassword" type="password" onChange={passwordValidation}/>
           <small className="errMsg">{values.errCnfPassword}</small>
-
           </FormControl> : ""}
-
           </div>
           </div> 
         </div>
@@ -157,8 +150,7 @@ export const Signup = () => {
            <SkipNextOutlined  sx={{ mr: 1 }} />
            Next
          </Fab> : ""  
-          }
-         
+          }        
         </div>
         </CardContent>
      </Card>

@@ -45,10 +45,9 @@ export const Referral = () => {
             <br></br>
             <Fab variant="extended" color="primary" onClick={onSucess} aria-label="add">
                 <Check  sx={{ mr: 1 }} />
-                    Submit
+                  Submit
             </Fab>
-          </div>
-          
+          </div>          
       </CardContent>
     </Card>
     </>
